@@ -1,6 +1,6 @@
 # Why MobX and React
 
-The best way to build web User Interface is to **separate the state and the UI**. This is what [Elm Architecture](http://guide.elm-lang.org/architecture/) dose. It separates every Elm program into **Model**, **Update** and **View** parts. It’s good. But many developers are not familiar with functional programming.
+The best way to build web User Interface is to **separate the state and the UI**. This is what [Elm Architecture](http://guide.elm-lang.org/architecture/) does. It separates every Elm program into **Model**, **Update** and **View** parts. It’s good. But many developers are not familiar with functional programming.
 
 Though I am not familiar with functional programming, I always learn a lot from it. I love FP because it is a good tool to write less bug and write more maintainable code. This is why I love React too. Every UI component can write as a function of state (`(state) => UI`), which let you test the UI more easily, just pass different state and expect the return value.
 
